@@ -12,7 +12,7 @@ app.use(
   cookieSession({
     signed: false,
     secure: process.env.NODE_ENV !== "test",
-    name: "x76s26"
+    name: process.env.SESSION_NAME
   })
 )
 
