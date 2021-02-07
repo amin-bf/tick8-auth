@@ -14,7 +14,7 @@ interface UserModel extends mongoose.Model<IUserDoc> {
 
 // An interface to describe properties of UserDoc
 interface IUserDoc extends mongoose.Document {
-  id: object
+  _id: object
   email: string
   password: string
   updatedAt: string
